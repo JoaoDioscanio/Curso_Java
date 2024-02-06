@@ -19,11 +19,6 @@ public class EstruturaRepetitivaFor {
 			soma += x;
 		}
 		System.out.println(soma);
-		
-		// Contagem
-		for (int a = 0;a < N; a++) {
-			System.out.println("Valor de a: "+a);
-		}
 		sc.close();
 
 	}

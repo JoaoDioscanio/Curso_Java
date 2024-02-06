@@ -22,7 +22,7 @@ public class EstruturaRepetitivaFor {
 		
 		// Contagem
 		for (int a = 0;a < N; a++) {
-			System.out.println("Valor de a: "+a);
+			System.out.println("Valor de a: "+a+1);
 		}
 		sc.close();
 
