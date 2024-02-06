@@ -1,0 +1,32 @@
+package exercicios;
+
+/* Fazer um programa que leia três valores com ponto flutuante de dupla precisão: A, B e C. Em seguida, calcule e 
+mostre: 
+a) a área do triângulo retângulo que tem A por base e C por altura. 
+b) a área do círculo de raio C. (pi = 3.14159) 
+c) a área do trapézio que tem A e B por bases e C por altura. 
+d) a área do quadrado que tem lado B. 
+e) a área do retângulo que tem lados A e B.
+*/
+import java.util.Scanner;
+public class Ex_006 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		double A, B, C, areaTriangulo, areaCirculo, areaTrapezio, areaQuadrado, areaRetangulo;
+		System.out.println("Digite 3 valores:");
+		A = sc.nextDouble();
+		B = sc.nextDouble();
+		C = sc.nextDouble();
+		areaTriangulo = A * C / 2;
+		areaCirculo = 3.14159 * Math.pow(C, 2);
+		areaTrapezio = (A + B) * C / 2;
+		areaQuadrado = B * B;
+		areaRetangulo = A * B;
+		System.out.printf("ÁREA DO TRIÂNGULO: %.3f\nÁREA DO CÍRCULO: %.3f\nÁREA DO CÍRCULO: %.3f\nÁREA DO TRAPÉZIO: %.3f\nÁREA DO QUADRADO: %f", areaTriangulo, areaCirculo, areaTrapezio, areaQuadrado);
+		System.out.printf("\nÁREA DO RETANGULO: %.3F",areaRetangulo);
+		sc.close();
+		
+	}
+
+}

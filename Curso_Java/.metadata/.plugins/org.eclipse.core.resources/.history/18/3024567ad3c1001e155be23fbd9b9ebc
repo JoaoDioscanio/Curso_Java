@@ -1,0 +1,13 @@
+package exercicios;
+
+import java.util.Scanner;
+public class Ex_011 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Escolha um item da tabela:\n");
+		
+		sc.close();
+	}
+
+}
