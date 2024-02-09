@@ -1,0 +1,22 @@
+package exercicios;
+
+import java.util.Scanner;
+import entidades.Retangulo;
+import java.util.Locale;
+public class Ex_025 {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		Retangulo largura, altura;
+		largura = new Retangulo();
+		altura = new Retangulo();
+		System.out.println("Enter rectangle width and height: ");
+		largura = sc.nextDouble();
+		altura = sc.nextDouble();
+		
+		sc.close();
+
+	}
+
+}
