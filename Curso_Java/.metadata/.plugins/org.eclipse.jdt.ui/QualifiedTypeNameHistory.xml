@@ -4,4 +4,6 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="entidades.Retangulo"/>
     <fullyQualifiedTypeName name="entidades.Funcionarios"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="entidades.Aluno"/>
 </qualifiedTypeNameHistroy>

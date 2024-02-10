@@ -1,0 +1,22 @@
+package exercicios;
+
+import java.util.Scanner;
+import java.util.Locale;
+import entidades.Aluno;
+public class Ex_027 {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		Aluno a1 = new Aluno();
+		a1.nome = sc.next();
+		a1._1Trimestre = sc.nextDouble();
+		a1._2Trimestre = sc.nextDouble();
+		a1._3Trimestre = sc.nextDouble();
+		System.out.println("Nota final"+a1.notaFinal());
+		
+		sc.close();
+
+	}
+
+}

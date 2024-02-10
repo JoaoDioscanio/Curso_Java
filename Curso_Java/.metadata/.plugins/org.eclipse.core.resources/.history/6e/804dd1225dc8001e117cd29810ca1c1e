@@ -1,0 +1,12 @@
+package entidades;
+
+public class Aluno {
+	public String nome;
+	public double _1Trimestre;
+	public double _2Trimestre;
+	public double _3Trimestre;
+	public double notaFinal() {
+		double notaFinal = this._1Trimestre + this._2Trimestre + this._3Trimestre;
+		return notaFinal;
+	}
+}
