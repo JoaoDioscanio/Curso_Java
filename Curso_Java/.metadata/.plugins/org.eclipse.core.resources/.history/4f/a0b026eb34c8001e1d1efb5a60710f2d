@@ -5,15 +5,11 @@ public class Funcionarios {
 	public double SalarioBruto;
 	public double Imposto;
 	public double SalarioLiquido() {
-		double salarioNet = SalarioBruto - Imposto;
+		double salarioNet = SalarioBruto * (1-Imposto);
 		return salarioNet;
 	}
 	public void AumentarSalario(double porcentagem) {
-		this.SalarioBruto = SalarioBruto * (1+(porcentagem/100));
-	}
-	public String toString() {
-		return nome
-			+ ", $"
-			+ String.format(" %.2f\n", SalarioLiquido());
+		SalarioBruto = this.SalarioBruto * (1-porcentagem);
+		double salarioNet = this.SalarioBruto - Imposto; 
 	}
 }

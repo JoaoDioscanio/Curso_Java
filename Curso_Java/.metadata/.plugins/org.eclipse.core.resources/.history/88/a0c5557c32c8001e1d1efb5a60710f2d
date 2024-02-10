@@ -1,0 +1,20 @@
+package exercicios;
+
+import java.util.Locale;
+import java.util.Scanner;
+import entidades.Funcionarios;
+public class Ex_026 {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		Funcionarios f1;
+		System.out.println("Funcionario 1:");
+		f1 = new Funcionarios();
+		f1.nome = sc.next();
+		f1.SalarioBruto = sc.nextDouble();
+		System.out.println(f1);
+		sc.close();
+	}
+
+}
