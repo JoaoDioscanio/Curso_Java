@@ -11,11 +11,11 @@ public class Aluno {
 			System.out.printf("FINAL GRADE = %.2f\nFAILED",notaFinal);
 			double pontosFaltando = 100 - notaFinal;
 			System.out.printf("MISSING POINTS = %.2f",pontosFaltando);
-			return;
 		}
 		else {
 			System.out.printf("FINAL GRADE = %.2f\nPASS",notaFinal);
-			return;
 		}
+		return;
+		// NÃO ESTÁ FUNCIONANDO
 	}
 }

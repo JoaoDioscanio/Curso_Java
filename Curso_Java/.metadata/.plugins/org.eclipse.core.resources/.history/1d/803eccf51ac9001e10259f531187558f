@@ -17,5 +17,6 @@ public class Aluno {
 			System.out.printf("FINAL GRADE = %.2f\nPASS",notaFinal);
 			return;
 		}
+		// NÃO ESTÁ FUNCIONANDO
 	}
 }

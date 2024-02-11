@@ -16,6 +16,7 @@ public class Ex_027 {
 		a1.analise();
 		
 		sc.close();
+		// NÃO ESTÁ FUNCIONANDO
 	}
 
 }
