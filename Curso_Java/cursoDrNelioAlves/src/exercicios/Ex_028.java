@@ -13,7 +13,8 @@ public class Ex_028 {
 		double d = sc.nextDouble();
 		System.out.print("How many dollars will be bought? ");
 		double qtD = sc.nextDouble();
-		ConvertorMoeda.total(d, qtD);
+		double total = ConvertorMoeda.total(d, qtD);
+		System.out.printf("Amount to be paid in R$ %.2f",total);
 		sc.close();
 	}
 

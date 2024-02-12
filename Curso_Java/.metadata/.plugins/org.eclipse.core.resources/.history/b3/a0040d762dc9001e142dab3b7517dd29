@@ -1,0 +1,14 @@
+package util;
+
+public class ConvertorMoeda {
+	public static final double IOF = 6.0;
+	public static void total(double dolar, double qtD) {
+		double total = dolar * qtD + (1+(IOF/100));
+		return;
+	}
+	/*public String toString() {
+		return total;
+		String.format("%.2f", (total));
+		
+	}*/
+}
