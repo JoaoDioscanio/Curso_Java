@@ -4,9 +4,10 @@
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="entidades.Retangulo"/>
     <fullyQualifiedTypeName name="entidades.Funcionarios"/>
-    <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="entidades.Aluno"/>
     <fullyQualifiedTypeName name="util.ConvertorMoeda"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="entidades.Produto2"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="util.Banco"/>
 </qualifiedTypeNameHistroy>

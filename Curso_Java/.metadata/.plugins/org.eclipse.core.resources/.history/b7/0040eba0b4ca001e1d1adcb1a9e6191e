@@ -1,0 +1,26 @@
+package exercicios;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+import util.Banco;
+
+public class Ex_029 {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		// Aplicação do Cadastro
+		System.out.print("Enter account number: ");
+		long tagAccount = sc.nextLong();
+		System.out.print("Enter account holder: ");
+		String nameHolder = sc.next();
+		Banco titular = new Banco(tagAccount, nameHolder);
+		String nomeT = titular.getNomeTitular();
+		System.out.println(nomeT);
+		
+		
+		sc.close();
+	}
+
+}
