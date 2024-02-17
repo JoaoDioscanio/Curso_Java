@@ -1,0 +1,6 @@
+package entidades;
+
+public class Estudante {
+	public String nome,mail;
+	public int quarto;
+}
