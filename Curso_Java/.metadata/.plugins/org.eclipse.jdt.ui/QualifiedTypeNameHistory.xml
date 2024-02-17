@@ -5,9 +5,10 @@
     <fullyQualifiedTypeName name="entidades.Funcionarios"/>
     <fullyQualifiedTypeName name="entidades.Aluno"/>
     <fullyQualifiedTypeName name="util.ConvertorMoeda"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="entidades.Produto2"/>
     <fullyQualifiedTypeName name="util.Banco"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Locale"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
