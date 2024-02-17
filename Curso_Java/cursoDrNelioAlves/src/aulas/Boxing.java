@@ -1,6 +1,6 @@
-package exercicios;
+package aulas;
 
-public class Ex_026 {
+public class Boxing {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

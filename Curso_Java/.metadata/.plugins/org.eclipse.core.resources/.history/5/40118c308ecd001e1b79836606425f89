@@ -1,11 +1,12 @@
 package aulas;
 
+import java.text.ParseException;
 import java.util.Scanner;
 
 import entidades.Rent;
 
 public class DesafioPensionato {
-	public static void main(String[] args){
+	public static void main(String[] args) throws ParseException {
 		Scanner sc = new Scanner(System.in);
 		Rent[] vect = new Rent[10];
 		System.out.print("How many rooms will be rented? ");
@@ -14,7 +15,6 @@ public class DesafioPensionato {
 			System.out.println();
 			System.out.println("Rent #" + i + ":");
 			System.out.print("Name: ");
-			// Ler nomes compostos:
 			sc.nextLine();
 			String name = sc.nextLine();
 			System.out.print("Email: ");

@@ -5,7 +5,7 @@ import java.util.Scanner;
 import entidades.Rent;
 
 public class DesafioPensionato {
-	public static void main(String[] args){
+	public static void main(String[] args) throws ParseException {
 		Scanner sc = new Scanner(System.in);
 		Rent[] vect = new Rent[10];
 		System.out.print("How many rooms will be rented? ");
