@@ -21,18 +21,14 @@ public class Funcionario {
 	}
 	public Funcionario() {	
 	}
-	public Funcionario(int tag, String nome, double salario) {
+	public Funcionario(String nome, double salario) {
 		super();
-		this.tag = tag;
 		this.nome = nome;
 		this.salario = salario;
 	}
-	public void aumentarSalario(double porcentagem) {
-		salario += salario * porcentagem / 100;
+	public double aumentarSalario(double salario, double porcentagem) {
+		salario = salario*porcentagem;
+		return salario*(1+(porcentagem/100));
+		
 	}
-	@Override
-	public String toString() {
-		return "Funcionario [nome=" + nome + ", tag=" + tag + ", salario=" + salario + "]";
-	}
-	
 }

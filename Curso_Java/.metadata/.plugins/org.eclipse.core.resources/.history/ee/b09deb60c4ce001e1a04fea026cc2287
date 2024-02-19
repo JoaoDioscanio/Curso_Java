@@ -28,7 +28,6 @@ public class Ex_040 {
 			String nome = sc.nextLine();
 			System.out.print("Salário: ");
 			double salario = sc.nextDouble();
-			
 			Funcionario a = new Funcionario(id, nome, salario);
 			novaLista.add(a);
 		}

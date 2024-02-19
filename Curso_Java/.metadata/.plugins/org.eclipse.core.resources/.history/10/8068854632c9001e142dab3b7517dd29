@@ -1,9 +1,0 @@
-package util;
-
-public class ConvertorMoeda {
-	public static final double IOF = 6.0;
-	public static String total(double dolar, double qtD) {
-		double total = dolar * qtD + (1+(IOF/100));
-		return String.format("Amount to be paid in R$ %.2f",(total));
-	}
-}

@@ -30,9 +30,4 @@ public class Funcionario {
 	public void aumentarSalario(double porcentagem) {
 		salario += salario * porcentagem / 100;
 	}
-	@Override
-	public String toString() {
-		return "Funcionario [nome=" + nome + ", tag=" + tag + ", salario=" + salario + "]";
-	}
-	
 }

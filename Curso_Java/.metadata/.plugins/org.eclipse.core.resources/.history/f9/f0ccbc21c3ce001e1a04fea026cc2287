@@ -13,30 +13,24 @@ public class Ex_040 {
 		// Exercício lista funcionario e aumentar salario, variaveis tag, nome, salario
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-		
 		List<Funcionario> novaLista = new ArrayList<>();
-		
 		System.out.print("Quantos funcionários serão digitados? ");
 		int n = sc.nextInt();
-		
 		for (int i = 0; i < n; i++) {
 			System.out.printf("FUNCIONÁRIO #%d\n",i+1);
 			System.out.print("ID: ");
-			int id = sc.nextInt();
+			int tag = sc.nextInt();
 			System.out.print("Nome: ");
 			sc.nextLine();
 			String nome = sc.nextLine();
 			System.out.print("Salário: ");
 			double salario = sc.nextDouble();
-			
-			Funcionario a = new Funcionario(id, nome, salario);
+			Funcionario a = new Funcionario(tag, nome, salario);
 			novaLista.add(a);
 		}
-		
 		System.out.print("Digite o ID do funcionário que receberá aumento: ");
 		int tag = sc.nextInt();
 		Integer pos = posicao(novaLista, tag);
-		
 		if (pos == null) {
 			System.out.println("Esse ID não existe!");
 		}
@@ -45,10 +39,6 @@ public class Ex_040 {
 			double porcentagem = sc.nextDouble();
 			novaLista.get(pos).aumentarSalario(porcentagem);
 		}
-		
-		System.out.println("Lista de funcionários:");
-		System.out.println(novaLista);
-		
 		sc.close();
 	}
 

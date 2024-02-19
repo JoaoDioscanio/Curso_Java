@@ -28,7 +28,6 @@ public class Ex_040 {
 			String nome = sc.nextLine();
 			System.out.print("Salário: ");
 			double salario = sc.nextDouble();
-			
 			Funcionario a = new Funcionario(id, nome, salario);
 			novaLista.add(a);
 		}
@@ -36,7 +35,6 @@ public class Ex_040 {
 		System.out.print("Digite o ID do funcionário que receberá aumento: ");
 		int tag = sc.nextInt();
 		Integer pos = posicao(novaLista, tag);
-		
 		if (pos == null) {
 			System.out.println("Esse ID não existe!");
 		}
@@ -45,10 +43,8 @@ public class Ex_040 {
 			double porcentagem = sc.nextDouble();
 			novaLista.get(pos).aumentarSalario(porcentagem);
 		}
-		
 		System.out.println("Lista de funcionários:");
-		System.out.println(novaLista);
-		
+		System.out.println(funcionario);;
 		sc.close();
 	}
 
