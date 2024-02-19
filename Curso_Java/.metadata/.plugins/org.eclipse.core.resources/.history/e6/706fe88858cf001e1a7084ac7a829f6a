@@ -32,6 +32,7 @@ public class Funcionario {
 	}
 	@Override
 	public String toString() {
-		return tag + ", " + nome + ", " + String.format("%.2f", salario);
+		return "Funcionario [nome=" + nome + ", tag=" + tag + ", salario=" + salario + "]";
 	}
+	
 }
