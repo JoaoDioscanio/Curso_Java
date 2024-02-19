@@ -16,34 +16,50 @@ public class Ex_041 {
 				matriz[i][j] = sc.nextInt();
 			}
 		}
+		// Inicializar variáveis de String
+		String left = "";
+		String right = "";
+		String up = "";
+		String down = "";
 		// Ler um valor
 		int x = sc.nextInt();
 		// Comparar com a matriz
 		for (int i=0; i<l; i++) {
 			for (int j=0; j<c; j++) {
 				if (x == matriz[i][j]) {
-					// Mostrar posição
-					System.out.println("Posição "+ i + ","+ j+":");
 					// Mostrar valores à esquerda
-					if (j > 0) {
-						System.out.println("Left: "+matriz[i][j-1]);
+					if (matriz[i][j-1] != 0) {
+						left += matriz[i][j-1];
 					}
 					// Mostrar valores à direita
-					if (matriz[i].length-1 > j) {
-						System.out.println("Right: "+matriz[i][j+1]);
+					if (matriz[i][j+1] != 0) {
+						right += matriz[i][j+1];
 					}
 					// Mostrar valores acima
-					if (i > 0) {
-						System.out.println("Up: "+matriz[i-1][j]);
+					if (matriz[i+1][j] != 0) {
+						up += matriz[i-1][j];
 					}
 					// Mostrar valores abaixo
-					if (matriz.length-1 > i) {
-						System.out.println("Down: "+matriz[i+1][j]);
+					if (matriz[i-1][j] != 0) {
+						down += matriz[i+1][j];
 					}
 				}
 			}
 		}
+		System.out.println("Left: "+left);
+		System.out.println("Right: "+right);
+		System.out.println("Up: "+up);
+		System.out.println("Down: "+down);
+		/*for (int i=0; i<l; i++) {
+			for(int j=0; j<c; j++) {
+				System.out.println(matriz[i][j]);
+			}
+			System.out.println();
+		}
+		*/
+		matriz.
 		sc.close();
+
 	}
 
 }

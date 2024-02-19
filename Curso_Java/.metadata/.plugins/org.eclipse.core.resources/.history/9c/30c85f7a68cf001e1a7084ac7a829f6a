@@ -22,8 +22,6 @@ public class Ex_041 {
 		for (int i=0; i<l; i++) {
 			for (int j=0; j<c; j++) {
 				if (x == matriz[i][j]) {
-					// Mostrar posição
-					System.out.println("Posição "+ i + ","+ j+":");
 					// Mostrar valores à esquerda
 					if (j > 0) {
 						System.out.println("Left: "+matriz[i][j-1]);
@@ -43,7 +41,16 @@ public class Ex_041 {
 				}
 			}
 		}
+		/*for (int i=0; i<l; i++) {
+			for(int j=0; j<c; j++) {
+				System.out.println(matriz[i][j]);
+			}
+			System.out.println();
+		}
+		*/
+	
 		sc.close();
+
 	}
 
 }
