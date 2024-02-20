@@ -1,0 +1,12 @@
+package aulas;
+
+import java.time.LocalDate;
+
+public class DataHora {
+
+	public static void main(String[] args) {
+		LocalDate d01 = LocalDate.parse("2023-02-12");
+		System.out.println(d01);
+	}
+
+}
