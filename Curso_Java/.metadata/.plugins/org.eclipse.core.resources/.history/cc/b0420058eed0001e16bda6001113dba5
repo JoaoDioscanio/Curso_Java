@@ -1,0 +1,18 @@
+package aulas;
+
+import java.time.Instant;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
+
+public class CalculosComDatas {
+
+	public static void main(String[] args) {
+		LocalDate localdateatual = LocalDate.now();
+		LocalDate localdateinsert = LocalDate.of(2024, 2, 1);
+		LocalDate t1 = localdateinsert.plusDays(6);
+		Instant instantatual = Instant.now();
+		Instant antes = instantatual.minus(7, ChronoUnit.DAYS);
+		System.out.println(antes); 
+	}
+
+}

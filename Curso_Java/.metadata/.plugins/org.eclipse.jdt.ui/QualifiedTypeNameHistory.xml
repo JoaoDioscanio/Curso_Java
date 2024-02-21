@@ -15,4 +15,9 @@
     <fullyQualifiedTypeName name="revisao.ForEach"/>
     <fullyQualifiedTypeName name="java.awt.FocusTraversalPolicy"/>
     <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="java.time.Instant"/>
+    <fullyQualifiedTypeName name="java.time.temporal.ChronoUnit"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="entidades.enums.OrderStatus"/>
 </qualifiedTypeNameHistroy>

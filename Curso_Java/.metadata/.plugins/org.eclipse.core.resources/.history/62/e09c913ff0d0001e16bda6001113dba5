@@ -1,0 +1,5 @@
+package entidades.enums;
+
+public enum OrderStatus {
+	Order order = new Order(1080; new Date(), OrderStatus.PENDING_PAYMENT);
+}
