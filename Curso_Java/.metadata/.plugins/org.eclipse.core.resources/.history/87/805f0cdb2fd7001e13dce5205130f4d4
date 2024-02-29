@@ -1,0 +1,10 @@
+package entidades;
+
+import java.util.Date;
+import entidades.enums.OrderStatus;
+
+public class Order {
+	private Integer id;
+	private Date moment;
+	private OrderStatus status;
+}
